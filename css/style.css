@@ -152,9 +152,21 @@ ul {list-style: none;}
     height: 50px;
 }
 
-.prova:hover {
+.presentation-ps5-mini-box-image:hover {
+    opacity: 100%;
     border-bottom: 2px solid blue;
     cursor: pointer;
 }
 
+@media all and (max-width:765px) {
+    .presentation-ps5-mini-box-image > p {display: none;}
+}
 
+.bg-main {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
