@@ -1,0 +1,54 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+
+.black-navbar {background-color: black;}
+
+.logo-sony-container {
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+}
+
+.logo-sony {width: 100%;}
+
+/* Changed some rules of booststrap rules */
+
+.navbar-dark .navbar-nav .nav-link, .nav-link {color: black;}
+
+.navbar-dark .navbar-nav .nav-link:hover {color: blue;}
+
+.dropdown-toggle::after {vertical-align: middle; color: gray;}
+
+.dropdown-toggle:hover::after {vertical-align: middle; color: blue;}
+
+/* Custom rules inside navbar */
+
+.custom-list-navbar {
+    display: flex;
+    align-items: center;
+}
+
+ul {list-style: none;}
+
+.accedi-navbar-button {
+    background-color: #363636;
+    color: white;
+    border: 1px solid #363636;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 110px;
+}
+
+/* FIX IT AT */
+
+.accedi-navbar-button:hover {border: 3px solid white;}
+
+.accedi-navbar-button-border:hover {
+    border: 2px solid #363636;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.accedi-navbar-button:hover {color: white; opacity: 0.8;}
+
+.search-icon-navbar {font-size: 26px; margin-left: 24px;}
