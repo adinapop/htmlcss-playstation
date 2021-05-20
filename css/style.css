@@ -39,7 +39,7 @@ ul {list-style: none;}
     width: 110px;
 }
 
-/* FIX IT AT */
+/* FIX IT */
 
 .accedi-navbar-button:hover {border: 3px solid white;}
 
@@ -52,3 +52,81 @@ ul {list-style: none;}
 .accedi-navbar-button:hover {color: white; opacity: 0.8;}
 
 .search-icon-navbar {font-size: 26px; margin-left: 24px;}
+
+/* HEADER CONTAINER STARTED */
+
+.bg-header {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.container-returnal-header-image {width: 200px;;}
+
+.returnal-header-image {width: 100%;}
+
+.content-header {
+    color: white;
+    margin-top: 300px;
+}
+
+.content-header > h1{
+    padding: 24px 0;
+}
+
+.container-button-header button {
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+    border-radius: 30px;
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+.container-button-header > button:hover {
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+.box-mini-games {
+    border: 2px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+/* .box-mini-games:hover {
+    border: 2px solid #4799dc;
+}
+
+.box-mini-games-inner:hover {
+    border: 3px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+} */
+
+.box-mini-games img {width: 100%;}
+
+.new-ps5-container {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.new-ps5-content > div {
+    color: #4799dc;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.new-ps5-content > p {
+    color: gray;
+    font-size: 20px;
+    padding: 24px 0;
+}
+
+
+
+
