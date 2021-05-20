@@ -220,6 +220,42 @@ ul {list-style: none;}
     padding: 12px 0;
 }
 
-.box-mini-new-games-inner > img {width: 100%; border-radius: 20px;}
+.box-mini-new-games-inner > img {
+    width: 100%; border-radius: 20px;
+}
 
-.box-mini-new-games-inner > p {padding-top: 12px; padding-bottom: 24px;}
+.box-mini-new-games-inner > p {
+    padding-top: 12px; padding-bottom: 24px;
+}
+
+.explore-ps4 {
+    text-align: center; 
+    margin-top: 60px;
+}
+
+.explore-ps4-content > p {
+    color: gray; 
+    font-weight: bold;
+    padding-top: 24px;
+    font-size: 18px;
+}
+
+.explore-ps4-items {padding-top: 60px;}
+
+.explore-ps4-items > img {width: 100%;}
+
+.explore-ps4-items > h2 {font-weight: bold;}
+
+.explore-ps4-items > p {
+    color: gray;
+    font-size: 18px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.explore-ps4-items > .button-explore-ps4 {
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 12px;
+}
