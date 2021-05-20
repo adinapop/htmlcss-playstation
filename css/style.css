@@ -127,6 +127,34 @@ ul {list-style: none;}
     padding: 24px 0;
 }
 
+.presentation-ps5-content > p {
+    color: gray;
+    padding: 12px 0;
+    font-weight: bold;
+}
 
+.presentation-ps5-content > .button-ps5-presentation {
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.presentation-ps5-image > img {
+    width: 100%;
+}
+
+.presentation-ps5-mini-box-image {opacity: 0.7;}
+
+.presentation-ps5-mini-box-image > img {width: 100%; padding: 24px;}
+
+.presentation-ps5-mini-box-image > p {
+    text-align: center;
+    height: 50px;
+}
+
+.prova:hover {
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+}
 
 
