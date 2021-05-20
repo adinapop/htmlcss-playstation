@@ -64,7 +64,7 @@ ul {list-style: none;}
     margin-bottom: 50px;
 }
 
-.container-returnal-header-image {width: 200px;;}
+.container-returnal-header-image {width: 200px;}
 
 .returnal-header-image {width: 100%;}
 
@@ -152,11 +152,11 @@ ul {list-style: none;}
     height: 50px;
 }
 
-.presentation-ps5-mini-box-image:hover {
+/* .presentation-ps5-mini-box-image:hover {
     opacity: 100%;
     border-bottom: 2px solid blue;
     cursor: pointer;
-}
+} */
 
 @media all and (max-width:765px) {
     .presentation-ps5-mini-box-image > p {display: none;}
@@ -168,5 +168,58 @@ ul {list-style: none;}
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
 }
+
+.content-main {
+    color: white;
+    margin-top: 50px;
+}
+
+.content-main > h1 {margin: 24px 0;}
+
+.content-main > p {
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.container-button-main button {
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+    border-radius: 30px;
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+.container-it-takes-two-hero-image {width: 200px;}
+
+@media all and (min-width:577px) and (max-width:768px) {
+    .container-it-takes-two-hero-image {width: 400px;}
+}
+
+@media all and (max-width:576px) {
+    .container-it-takes-two-hero-image {width: 300px;}
+}
+
+.container-it-takes-two-hero-image > img {width: 100%;}
+
+.bg-container-new-games {
+    background-color: #1f1f1f;
+    color: white;
+    padding-top: 24px;
+}
+
+.new-games-content > h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.new-games-content > p {
+    font-size: 22px;
+    padding: 12px 0;
+}
+
+.box-mini-new-games-inner > img {width: 100%; border-radius: 20px;}
+
+.box-mini-new-games-inner > p {padding-top: 12px; padding-bottom: 24px;}
