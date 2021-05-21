@@ -108,6 +108,7 @@ ul {list-style: none;}
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1001;
 }
 
 .custom-list-navbar {
@@ -124,7 +125,6 @@ ul {list-style: none;}
     background-color: #363636;
     border: 1px solid #363636;
     border-radius: 30px;
-    font-weight: bold;
     font-size: 18px;
     padding: 6px 12px;
 }
@@ -180,7 +180,6 @@ ul {list-style: none;}
     padding: 24px 0;
 }
 
-
 .box-mini-games {
     border: 5px solid white;
     border-radius: 20px;
@@ -218,6 +217,10 @@ ul {list-style: none;}
     font-size: 20px;
     padding: 24px 0;
 }
+
+/* Presentation PS5 section with images & description */
+
+.presentation-ps5 {margin-bottom: 36px;}
 
 .presentation-ps5-content > p {
     color: gray;
@@ -272,11 +275,11 @@ ul {list-style: none;}
 
 .container-it-takes-two-hero-image {width: 200px;}
 
-@media all and (min-width:577px) and (max-width:768px) {
+@media all and (min-width:768px) and (max-width:992px) {
     .container-it-takes-two-hero-image {width: 400px;}
 }
 
-@media all and (max-width:576px) {
+@media all and (max-width:767px) {
     .container-it-takes-two-hero-image {width: 300px;}
 }
 
@@ -306,6 +309,8 @@ ul {list-style: none;}
     padding-top: 12px; padding-bottom: 24px;
 }
 
+/* PS4 Explore section */
+
 .explore-ps4 {
     text-align: center; 
     margin-top: 60px;
@@ -331,6 +336,8 @@ ul {list-style: none;}
     font-weight: bold;
 }
 
+/* PlayStation Plus section */
+
 .ps-plus-container {
     background-color: #bebcbb;
     margin-top: 48px;
@@ -346,6 +353,8 @@ ul {list-style: none;}
     padding-top: 24px;
     padding-bottom: 12px;
 }
+
+/* New Sales section */
 
 .new-sales-ps-container {margin-top: 48px;}
 
@@ -378,9 +387,13 @@ ul {list-style: none;}
 
 .ps-now-image > img {width: 100%;}
 
+
 @media all and (max-width:768px) {
     .ps-plus-item1 {margin:24px 0}
     .ps-plus-image, .ps-now-image {display: none;}
+    .ps-plus-container, .ps-now-section {padding: 36px 0;}
+    .sales-image-box {margin-bottom: 48px;}
+    .second-footer-container {margin-top: 48px;}
 }
 
 .social-media-section {margin-bottom: 60px;}
