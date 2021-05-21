@@ -28,6 +28,69 @@
 
 ul {list-style: none;}
 
+.container-button {
+    display: inline-block;
+    padding: 2px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.button-shop-now > a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-shop-now {
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.container-button-shop-now:hover {
+    display: inline-block;
+    padding: 2px;
+    border-radius: 30px;
+    border: 2px solid #cd3d0f;
+}
+
+.button-more-info > a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-more-info {
+    background-color: #2d64e6;
+    border: 1px solid #2d64e6;
+    border-radius: 30px;
+    padding: 6px 12px;
+}
+
+.container-button-more-info:hover {
+    border: 2px solid #2d64e6;
+    padding: 2px;
+    border-radius: 30px;
+}
+
+.button-explore > a {
+    text-decoration: none;
+}
+
+.button-explore {
+    background-color: #d9dadc;
+    border: 1px solid #d9dadc;
+    border-radius: 30px;
+    padding: 6px 12px;
+}
+
+.container-button-explore:hover {
+    padding: 2px;
+    border-radius: 30px;
+    border: 2px solid #d9dadc;
+}
+
 /* START NAVBARS */
 
 .black-navbar {background-color: black;}
@@ -52,17 +115,24 @@ ul {list-style: none;}
     align-items: center;
 }
 
-.accedi-navbar-button {
-    background-color: #363636;
+.button-navbar > a {
     color: white;
-    border: #363636;
-    border-radius: 25px;
-    font-weight: bold;
-    font-size: 18px;
+    text-decoration: none;
 }
 
-.accedi-navbar-button:hover {
-    border: 2px solid white;
+.button-navbar {
+    background-color: #363636;
+    border: 1px solid #363636;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+
+.container-button-navbar:hover {
+    border: 2px solid #363636;
+    padding: 2px;
+    border-radius: 30px;
 }
 
 .accedi-navbar-button-border:hover {
@@ -110,33 +180,6 @@ ul {list-style: none;}
     padding: 24px 0;
 }
 
-.container-button-header {
-    display: inline-block;
-    padding: 2px;
-    border-radius: 30px;
-    border: 2px solid transparent;
-}
-
-.button-header > a {
-    color: white;
-    text-decoration: none;
-}
-
-.button-header {
-    background-color: #cd3d0f;
-    border: 1px solid #cd3d0f;
-    border-radius: 30px;
-    font-weight: bold;
-    padding: 6px 12px;
-    text-align: center;
-}
-
-.container-button-header:hover {
-    display: inline-block;
-    padding: 2px;
-    border-radius: 30px;
-    border: 2px solid #cd3d0f;
-}
 
 .box-mini-games {
     border: 5px solid white;
@@ -182,15 +225,7 @@ ul {list-style: none;}
     font-weight: bold;
 }
 
-.presentation-ps5-content > .button-ps5-presentation {
-    border-radius: 30px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.presentation-ps5-image > img {
-    width: 100%;
-}
+.presentation-ps5-image > img {width: 100%;}
 
 .presentation-ps5-mini-box-image {
     opacity: 0.7;
@@ -202,7 +237,6 @@ ul {list-style: none;}
 .presentation-ps5-mini-box-image > p {
     text-align: center;
     height: 50px;
-
 }
 
 .presentation-ps5-mini-box-image:hover {
@@ -234,15 +268,6 @@ ul {list-style: none;}
     font-weight: bold;
     margin-bottom: 24px;
     font-size: 14px;
-}
-
-.container-button-main button {
-    background-color: #cd3d0f;
-    border: 1px solid #cd3d0f;
-    border-radius: 30px;
-    color: white;
-    padding: 6px 12px;
-    font-weight: bold;
 }
 
 .container-it-takes-two-hero-image {width: 200px;}
@@ -306,13 +331,6 @@ ul {list-style: none;}
     font-weight: bold;
 }
 
-.explore-ps4-items > .button-explore-ps4 {
-    font-size: 15px;
-    border-radius: 30px;
-    font-weight: bold;
-    margin-top: 12px;
-}
-
 .ps-plus-container {
     background-color: #bebcbb;
     margin-top: 48px;
@@ -328,14 +346,6 @@ ul {list-style: none;}
     padding-top: 24px;
     padding-bottom: 12px;
 }
-
-.ps-plus-item1 > button {
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 20px;
-    font-weight: bold;
-}
-
 
 .new-sales-ps-container {margin-top: 48px;}
 
@@ -364,13 +374,7 @@ ul {list-style: none;}
     padding: 24px 0;
 }
 
-.ps-now-content > button {
-    color: black;
-    background-color: white;
-    font-size: black;
-    border: 1px solid white;
-    border-radius: 20px;
-}
+.button-explore-black > a {color: black;}
 
 .ps-now-image > img {width: 100%;}
 
@@ -406,7 +410,11 @@ footer {
     padding-bottom: 48px;
 }
 
+.first-footer-content > p:hover {cursor: pointer;}
+
 .first-footer-items > ul > li {padding: 4px 0;}
+
+.first-footer-items > ul > li:hover {cursor: pointer;}
 
 @media all and (max-width:992px) {
     .first-footer-items {padding: 48px 0;}
