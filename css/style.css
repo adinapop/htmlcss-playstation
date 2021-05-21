@@ -360,12 +360,13 @@ footer {
     background-color: #00439c;
     color: white;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .first-footer-container {padding-top: 60px;}
 
 .logo-ps-img-footer-first > img {
-    width: 130px;
+    width: 100px;
     padding-bottom: 48px;
 }
 
@@ -379,3 +380,14 @@ footer {
     .first-footer-items {padding: 0;}
     .first-footer-content {padding-bottom: 24px;}
 }
+
+.logo-ps-second-footer > img {
+    width: 150px;
+    padding-bottom: 12px;
+}
+
+.text-link-second-footer {color: white;}
+
+.text-link-second-footer:hover {color: white;}
+
+.second-footer-container {padding-bottom: 84px;}
