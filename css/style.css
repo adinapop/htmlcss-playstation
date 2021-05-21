@@ -91,28 +91,52 @@ ul {list-style: none;}
 
 .returnal-header-image {width: 100%;}
 
+@media all and (min-width:768px) and (max-width:992px) {
+    .container-returnal-header-image {width: 400px;}
+    .returnal-header-image {width: 100%;}
+}
+
+@media all and (max-width:767px) {
+    .container-returnal-header-image {width: 300px;}
+    .returnal-header-image {width: 100%;}
+}
+
 .content-header {
     color: white;
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 .content-header > h1{
     padding: 24px 0;
 }
 
-.container-button-header button {
+.container-button-header {
+    display: inline-block;
+    padding: 2px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.button-header > a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-header {
     background-color: #cd3d0f;
     border: 1px solid #cd3d0f;
     border-radius: 30px;
-    color: white;
-    padding: 6px 12px;
     font-weight: bold;
+    padding: 6px 12px;
+    text-align: center;
 }
 
-/* .container-button-header > button:hover {
-    border: 2px solid transparent;
+.container-button-header:hover {
+    display: inline-block;
+    padding: 2px;
     border-radius: 30px;
-} */
+    border: 2px solid #cd3d0f;
+}
 
 .box-mini-games {
     border: 5px solid white;
@@ -132,6 +156,8 @@ ul {list-style: none;}
 }
 
 .box-mini-games img {width: 100%;}
+
+/* New PS5 container started */
 
 .new-ps5-container {
     text-align: center;
