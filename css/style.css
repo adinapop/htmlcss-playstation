@@ -355,5 +355,9 @@ ul {list-style: none;}
 .social-media-mini-img > img {width: 100%;}
 
 @media all and (max-width:576px) {
-    .social-media-mini-img > img {margin-bottom: 12px;
+    .social-media-mini-img > img {margin-bottom: 48px;}
+}
+
+footer {
+    background-color: #00439c;
 }
