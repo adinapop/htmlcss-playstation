@@ -1,21 +1,4 @@
-.black-navbar {background-color: black;}
-
-.logo-sony-container {
-    justify-content: flex-end;
-    align-items: center;
-    height: 30px;
-}
-
-.logo-sony {width: 100%;}
-
-.white-navbar {
-    background-color: white;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-/* Changed some rules of booststrap rules */
+/* Changed some booststrap rules */
 
 .navbar-dark .navbar-nav .nav-link, .nav-link {color: black;}
 
@@ -35,36 +18,65 @@
 
 /* Custom rules inside navbar */
 
+/* Utilities classes */
+
+ul {list-style: none;}
+
+/* START NAVBARS */
+
+.black-navbar {background-color: black;}
+
+.logo-sony-container {
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+}
+
+.logo-sony {width: 100%;}
+
+.white-navbar {
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .custom-list-navbar {
     display: flex;
     align-items: center;
 }
 
-ul {list-style: none;}
-
 .accedi-navbar-button {
     background-color: #363636;
     color: white;
-    border: 1px solid #363636;
+    border: #363636;
     border-radius: 25px;
     font-weight: bold;
     font-size: 18px;
-    width: 110px;
 }
 
-/* FIX IT */
-
-.accedi-navbar-button:hover {border: 3px solid white;}
+.accedi-navbar-button:hover {
+    border: 2px solid white;
+}
 
 .accedi-navbar-button-border:hover {
-    border: 2px solid #363636;
+    border: 2px solid rgba(54,54,54,0.8);
     border-radius: 25px;
-    opacity: 0.8;
 }
 
 .accedi-navbar-button:hover {color: white; opacity: 0.8;}
 
 .search-icon-navbar {font-size: 26px; margin-left: 24px;}
+
+.hamburger-button {
+    font-size: 30px;
+    width: 70px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.hamburger-button > i {color: gray;}
 
 /* HEADER CONTAINER STARTED */
 
