@@ -16,6 +16,12 @@
 
 .dropdown-toggle:hover::after {color: blue;}
 
+.navbar-toggler {
+    color: gray;
+    border: 1px solid lightgrey;
+    font-size: 28px;
+}
+
 /* Custom rules inside navbar */
 
 /* Utilities classes */
@@ -67,14 +73,6 @@ ul {list-style: none;}
 .accedi-navbar-button:hover {color: white; opacity: 0.8;}
 
 .search-icon-navbar {font-size: 26px; margin-left: 24px;}
-
-.hamburger-button {
-    font-size: 30px;
-    width: 70px;
-    background-color: white;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-}
 
 .hamburger-button > i {color: gray;}
 
