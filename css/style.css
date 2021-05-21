@@ -344,3 +344,16 @@ ul {list-style: none;}
     .ps-plus-item1 {margin:24px 0}
     .ps-plus-image, .ps-now-image {display: none;}
 }
+
+.social-media-section {margin-bottom: 60px;}
+
+.social-media-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.social-media-mini-img > img {width: 100%;}
+
+@media all and (max-width:576px) {
+    .social-media-mini-img > img {margin-bottom: 12px;
+}
