@@ -1,5 +1,3 @@
-* {font-family: Arial, Helvetica, sans-serif;}
-
 .black-navbar {background-color: black;}
 
 .logo-sony-container {
@@ -360,4 +358,24 @@ ul {list-style: none;}
 
 footer {
     background-color: #00439c;
+    color: white;
+    font-size: 14px;
+}
+
+.first-footer-container {padding-top: 60px;}
+
+.logo-ps-img-footer-first > img {
+    width: 130px;
+    padding-bottom: 48px;
+}
+
+.first-footer-items > ul > li {padding: 4px 0;}
+
+@media all and (max-width:992px) {
+    .first-footer-items {padding: 48px 0;}
+}
+
+@media all and (max-width:768px) {
+    .first-footer-items {padding: 0;}
+    .first-footer-content {padding-bottom: 24px;}
 }
