@@ -302,7 +302,45 @@ ul {list-style: none;}
     font-weight: bold;
 }
 
+
+.new-sales-ps-container {margin-top: 48px;}
+
+.new-sales-ps-content {text-align: center;}
+
+.new-sales-ps-content > p {
+    padding-top: 12px;
+    padding-bottom: 48px;
+    font-size: 20px;
+    color: #727272;
+}
+
+.sales-image-mini-box > img {width: 100%;}
+
+.ps-now-section {
+    margin: 60px 0;
+    background-color: #161c3b;
+}
+
+.ps-now-logo {width: 300px;}
+
+.ps-now-logo > img {width: 100%;}
+
+.ps-now-content > p {
+    color: white;
+    padding: 24px 0;
+}
+
+.ps-now-content > button {
+    color: black;
+    background-color: white;
+    font-size: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.ps-now-image > img {width: 100%;}
+
 @media all and (max-width:768px) {
     .ps-plus-item1 {margin:24px 0}
-    .ps-plus-image {display: none;}
+    .ps-plus-image, .ps-now-image {display: none;}
 }
