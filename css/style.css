@@ -94,7 +94,9 @@ ul {list-style: none;}
     height: 30px;
 }
 
-.logo-sony {width: 100%;}
+.logo-sony {width: 100px;}
+
+.navbar-brand > img:hover, .logo-sony:hover {cursor: pointer;}
 
 .white-navbar {
     background-color: white;
@@ -186,20 +188,15 @@ ul {list-style: none;}
     font-size: 14px;
 }
 
-.new-ps5-content > p {
-    color: #636363;
-    font-size: 20px;
-    padding: 24px 0;
-}
-
 /* Presentation New PS5 section with images and description */
 
-.presentation-ps5-container {margin-bottom: 36px;}
-
-.presentation-ps5-content > p {
+.new-ps5-content > p, .presentation-ps5-content > p {
     color: #636363;
+    font-size: 20px;
     padding: 12px 0;
 }
+
+.presentation-ps5-container {margin-bottom: 36px;}
 
 .presentation-ps5-image > img {width: 100%;}
 
@@ -341,7 +338,7 @@ ul {list-style: none;}
 
 .ps-now-content > p {
     color: white;
-    padding: 24px 0;
+    padding: 12px 0;
 }
 
 .ps-now-logo {width: 300px;}
@@ -396,10 +393,10 @@ footer {
 
 @media all and (max-width:768px) {
     .presentation-ps5-mini-box-image > p {display: none;}
-    .ps-plus-item1 {margin:24px 0}
+    .ps-plus-item {margin:24px 0}
     .ps-plus-image, .ps-now-image {display: none;}
-    .ps-plus-container, .ps-now-section {padding: 36px 0;}
-    .sales-image-box {margin-bottom: 48px;}
+    .ps-plus-section, .ps-now-section {padding: 36px 0;}
+    .sales-ps-store-image {margin-bottom: 48px;}
     .second-footer-container {margin-top: 48px;}
     .first-footer-items {padding: 0;}
     .first-footer-content {padding-bottom: 24px;}
@@ -416,5 +413,3 @@ footer {
     .returnal-header-image {width: 100%;}
     .image-it-takes-two-hero-container {width: 400px;}
 }
-
-@media all and (max-width:992px) {.first-footer-items {padding: 48px 0;}}
