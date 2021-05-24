@@ -1,12 +1,12 @@
 /* Changed some booststrap rules */
 
-.navbar-dark .navbar-nav .nav-link, .nav-link {color: black;}
+.nav-link {color: black;}
 
-.navbar-dark .navbar-nav .nav-link:hover {color: blue;}
+.nav-link:hover {color: blue;}
 
 .dropdown-toggle::after {
     vertical-align: middle; 
-    color: gray;
+    color: #636363;
     border: 0;
     font-family: "Font Awesome 5 Free";
     content: "\f107";
@@ -17,14 +17,12 @@
 .dropdown-toggle:hover::after {color: blue;}
 
 .navbar-toggler {
-    color: gray;
+    color: #636363;
     border: 1px solid lightgrey;
     font-size: 28px;
 }
 
-/* Custom rules inside navbar */
-
-/* Utilities classes */
+/* Utility classes */
 
 ul {list-style: none;}
 
@@ -35,7 +33,7 @@ ul {list-style: none;}
     border: 2px solid transparent;
 }
 
-.button-shop-now > a {
+.button-shop-now > a, .button-more-info > a, .button-navbar > a {
     color: white;
     text-decoration: none;
 }
@@ -54,11 +52,6 @@ ul {list-style: none;}
     padding: 2px;
     border-radius: 30px;
     border: 2px solid #cd3d0f;
-}
-
-.button-more-info > a {
-    text-decoration: none;
-    color: white;
 }
 
 .button-more-info {
@@ -116,11 +109,6 @@ ul {list-style: none;}
     align-items: center;
 }
 
-.button-navbar > a {
-    color: white;
-    text-decoration: none;
-}
-
 .button-navbar {
     background-color: #363636;
     border: 1px solid #363636;
@@ -135,18 +123,16 @@ ul {list-style: none;}
     border-radius: 30px;
 }
 
-.accedi-navbar-button-border:hover {
-    border: 2px solid rgba(54,54,54,0.8);
-    border-radius: 25px;
-}
-
-.accedi-navbar-button:hover {color: white; opacity: 0.8;}
-
 .search-icon-navbar {font-size: 26px; margin-left: 24px;}
 
-.hamburger-button > i {color: gray;}
+.search-icon-navbar:hover {
+    cursor: pointer;
+    color: black;
+}
 
-/* HEADER CONTAINER STARTED */
+.hamburger-button > i {color: #636363;}
+
+/* HEADER section with Jumbotron start */
 
 .bg-header {
     background-image: url(../img/jumbo-bg.png);
@@ -161,24 +147,14 @@ ul {list-style: none;}
 
 .returnal-header-image {width: 100%;}
 
-@media all and (min-width:768px) and (max-width:992px) {
-    .container-returnal-header-image {width: 400px;}
-    .returnal-header-image {width: 100%;}
-}
-
-@media all and (max-width:767px) {
-    .container-returnal-header-image {width: 300px;}
-    .returnal-header-image {width: 100%;}
-}
-
 .content-header {
     color: white;
     margin-top: 250px;
 }
 
-.content-header > h1{
-    padding: 24px 0;
-}
+.content-header > h1 {padding: 24px 0;}
+
+/* HEADER section with Mini Boxes Games start */
 
 .box-mini-games {
     border: 5px solid white;
@@ -187,9 +163,7 @@ ul {list-style: none;}
     margin-bottom: 24px;
 }
 
-.box-mini-games:hover {
-    border: 2px solid #4799dc;
-}
+.box-mini-games:hover {border: 2px solid #4799dc;}
 
 .box-mini-games-inner:hover {
     border: 3px solid white;
@@ -199,7 +173,7 @@ ul {list-style: none;}
 
 .box-mini-games img {width: 100%;}
 
-/* New PS5 container started */
+/* New PS5 section start */
 
 .new-ps5-container {
     text-align: center;
@@ -213,19 +187,18 @@ ul {list-style: none;}
 }
 
 .new-ps5-content > p {
-    color: gray;
+    color: #636363;
     font-size: 20px;
     padding: 24px 0;
 }
 
-/* Presentation PS5 section with images & description */
+/* Presentation New PS5 section with images and description */
 
-.presentation-ps5 {margin-bottom: 36px;}
+.presentation-ps5-container {margin-bottom: 36px;}
 
 .presentation-ps5-content > p {
-    color: gray;
+    color: #636363;
     padding: 12px 0;
-    font-weight: bold;
 }
 
 .presentation-ps5-image > img {width: 100%;}
@@ -248,11 +221,9 @@ ul {list-style: none;}
     cursor: pointer;
 }
 
-@media all and (max-width:765px) {
-    .presentation-ps5-mini-box-image > p {display: none;}
-}
+/* It Takes Two Game Presentation section */
 
-.bg-main {
+.bg-it-takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     height: 600px;
@@ -260,40 +231,28 @@ ul {list-style: none;}
     background-size: cover;
 }
 
-.content-main {
+.it-takes-two-content {
     color: white;
     margin-top: 50px;
 }
 
-.content-main > h1 {margin: 24px 0;}
+.it-takes-two-content > h1 {margin: 24px 0;}
 
-.content-main > p {
-    font-weight: bold;
+.it-takes-two-content > p {
     margin-bottom: 24px;
     font-size: 14px;
 }
 
-.container-it-takes-two-hero-image {width: 200px;}
+.image-it-takes-two-hero-container {width: 200px;}
 
-@media all and (min-width:768px) and (max-width:992px) {
-    .container-it-takes-two-hero-image {width: 400px;}
-}
+.image-it-takes-two-hero-container > img {width: 100%;}
 
-@media all and (max-width:767px) {
-    .container-it-takes-two-hero-image {width: 300px;}
-}
+/* New Games Out now Presentation */
 
-.container-it-takes-two-hero-image > img {width: 100%;}
-
-.bg-container-new-games {
+.bg-new-games {
     background-color: #1f1f1f;
     color: white;
     padding-top: 24px;
-}
-
-.new-games-content > h2 {
-    font-weight: bold;
-    font-size: 30px;
 }
 
 .new-games-content > p {
@@ -301,44 +260,48 @@ ul {list-style: none;}
     padding: 12px 0;
 }
 
-.box-mini-new-games-inner > img {
-    width: 100%; border-radius: 20px;
+.box-mini-new-games > img {
+    width: 100%; 
+    border-radius: 20px;
 }
 
-.box-mini-new-games-inner > p {
-    padding-top: 12px; padding-bottom: 24px;
+.box-mini-new-games > p {
+    padding-top: 12px; 
+    padding-bottom: 24px;
 }
 
-/* PS4 Explore section */
+/* Explore PS4 title and paragraphs section */
 
 .explore-ps4 {
     text-align: center; 
     margin-top: 60px;
 }
 
-.explore-ps4-content > p {
-    color: gray; 
-    font-weight: bold;
+.first-paragraph-explore-ps4 {    
+    margin-bottom: 0;
     padding-top: 24px;
+}
+
+.explore-ps4-content > p {
+    color: #636363; 
     font-size: 18px;
 }
+
+/* Explore PS4, VR & Accessories */
 
 .explore-ps4-items {padding-top: 60px;}
 
 .explore-ps4-items > img {width: 100%;}
 
-.explore-ps4-items > h2 {font-weight: bold;}
-
 .explore-ps4-items > p {
-    color: gray;
+    color: #636363;
     font-size: 18px;
     padding-top: 12px;
-    font-weight: bold;
 }
 
 /* PlayStation Plus section */
 
-.ps-plus-container {
+.ps-plus-section {
     background-color: #bebcbb;
     margin-top: 48px;
 }
@@ -349,52 +312,45 @@ ul {list-style: none;}
 
 .ps-plus-image > img {width: 100%;}
 
-.ps-plus-item1 > p {
+.ps-plus-item > p {
     padding-top: 24px;
     padding-bottom: 12px;
 }
 
-/* New Sales section */
+/* New Sales on PlayStation Store section */
 
-.new-sales-ps-container {margin-top: 48px;}
+.sales-ps-store {margin-top: 48px;}
 
-.new-sales-ps-content {text-align: center;}
+.sales-ps-content {text-align: center;}
 
-.new-sales-ps-content > p {
+.sales-ps-content > p {
     padding-top: 12px;
     padding-bottom: 48px;
     font-size: 20px;
-    color: #727272;
+    color: #636363;
 }
 
-.sales-image-mini-box > img {width: 100%;}
+.sales-ps-store-image > img {width: 100%;}
+
+/* PS Now Presentation section */
 
 .ps-now-section {
     margin: 60px 0;
     background-color: #161c3b;
 }
 
-.ps-now-logo {width: 300px;}
-
-.ps-now-logo > img {width: 100%;}
-
 .ps-now-content > p {
     color: white;
     padding: 24px 0;
 }
 
+.ps-now-logo {width: 300px;}
+
+.ps-now-logo > img, .ps-now-image > img {width: 100%;}
+
 .button-explore-black > a {color: black;}
 
-.ps-now-image > img {width: 100%;}
-
-
-@media all and (max-width:768px) {
-    .ps-plus-item1 {margin:24px 0}
-    .ps-plus-image, .ps-now-image {display: none;}
-    .ps-plus-container, .ps-now-section {padding: 36px 0;}
-    .sales-image-box {margin-bottom: 48px;}
-    .second-footer-container {margin-top: 48px;}
-}
+/* Social Media Section */
 
 .social-media-section {margin-bottom: 60px;}
 
@@ -405,9 +361,7 @@ ul {list-style: none;}
 
 .social-media-mini-img > img {width: 100%;}
 
-@media all and (max-width:576px) {
-    .social-media-mini-img > img {margin-bottom: 48px;}
-}
+/* FOOTER Start */
 
 footer {
     background-color: #00439c;
@@ -418,33 +372,49 @@ footer {
 
 .first-footer-container {padding-top: 60px;}
 
-.logo-ps-img-footer-first > img {
+.logo-ps-img-first-footer > img {
     width: 100px;
     padding-bottom: 48px;
 }
 
-.first-footer-content > p:hover {cursor: pointer;}
-
 .first-footer-items > ul > li {padding: 4px 0;}
 
-.first-footer-items > ul > li:hover {cursor: pointer;}
-
-@media all and (max-width:992px) {
-    .first-footer-items {padding: 48px 0;}
-}
-
-@media all and (max-width:768px) {
-    .first-footer-items {padding: 0;}
-    .first-footer-content {padding-bottom: 24px;}
-}
+.first-footer-items > ul > li:hover, .first-footer-content > p:hover {cursor: pointer;}
 
 .logo-ps-second-footer > img {
     width: 150px;
     padding-bottom: 12px;
 }
 
-.text-link-second-footer {color: white;}
-
-.text-link-second-footer:hover {color: white;}
+.text-link-second-footer, .text-link-second-footer:hover {color: white;}
 
 .second-footer-container {padding-bottom: 84px;}
+
+/* MEDIA QUERY Section */
+
+@media all and (max-width:576px) {.social-media-mini-img > img {margin-bottom: 48px;}}
+
+@media all and (max-width:768px) {
+    .presentation-ps5-mini-box-image > p {display: none;}
+    .ps-plus-item1 {margin:24px 0}
+    .ps-plus-image, .ps-now-image {display: none;}
+    .ps-plus-container, .ps-now-section {padding: 36px 0;}
+    .sales-image-box {margin-bottom: 48px;}
+    .second-footer-container {margin-top: 48px;}
+    .first-footer-items {padding: 0;}
+    .first-footer-content {padding-bottom: 24px;}
+}
+
+@media all and (max-width:767px) {
+    .container-returnal-header-image {width: 300px;}
+    .returnal-header-image {width: 100%;}
+    .image-it-takes-two-hero-container {width: 300px;}
+}
+
+@media all and (min-width:768px) and (max-width:992px) {
+    .container-returnal-header-image {width: 400px;}
+    .returnal-header-image {width: 100%;}
+    .image-it-takes-two-hero-container {width: 400px;}
+}
+
+@media all and (max-width:992px) {.first-footer-items {padding: 48px 0;}}
